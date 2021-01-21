@@ -1,0 +1,546 @@
+{
+  "info": {
+    "title": "Bot Initialization",
+    "description": "Prefix Set Here!",
+    "thumbnail": "https://cdn.wallpapersafari.com/42/24/i2R560.jpg"
+  },
+  "blocks": [
+    {
+      "name": "bot_initialization_event",
+      "info": {
+        "x": 308,
+        "y": 226,
+        "z": 1,
+        "color": "#5a5a5a",
+        "height": 82,
+        "width": 239
+      },
+      "outputs": {
+        "action": [
+          "eSA4skXqzh"
+        ]
+      },
+      "inputs": {},
+      "options": {}
+    },
+    {
+      "name": "set_bot_activity",
+      "info": {
+        "x": 646,
+        "y": 236,
+        "z": 2,
+        "color": "#5a5a5a",
+        "height": 165,
+        "width": 411
+      },
+      "inputs": {
+        "action": "eSA4skXqzh",
+        "activity_name": "6Y4G6AAtjz",
+        "activity_url": "TPPuoa0Tfg"
+      },
+      "options": {
+        "activity_type": "watching"
+      },
+      "outputs": {
+        "action": []
+      }
+    },
+    {
+      "name": "text",
+      "info": {
+        "x": 332,
+        "y": 326,
+        "z": 3,
+        "color": "#5a5a5a",
+        "height": 118,
+        "width": 305
+      },
+      "options": {
+        "text": "You"
+      },
+      "outputs": {
+        "text": [
+          "6Y4G6AAtjz"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "change_bot_prefix",
+      "info": {
+        "x": 877,
+        "y": 575,
+        "z": 4,
+        "color": "#5a5a5a",
+        "height": 144,
+        "width": 241
+      },
+      "inputs": {
+        "action": "zdj1RQBp7o",
+        "prefix": "bCBkJ9s68b",
+        "server": "3HGeOruvo1"
+      },
+      "outputs": {
+        "action": []
+      },
+      "options": {}
+    },
+    {
+      "name": "text",
+      "info": {
+        "x": 545,
+        "y": 593,
+        "z": 5,
+        "color": "#5a5a5a",
+        "height": 118,
+        "width": 305
+      },
+      "options": {
+        "text": "t!"
+      },
+      "outputs": {
+        "text": [
+          "bCBkJ9s68b"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "bot_initialization_event",
+      "info": {
+        "x": 289,
+        "y": 548,
+        "z": 6,
+        "color": "#5a5a5a",
+        "height": 82,
+        "width": 242
+      },
+      "outputs": {
+        "action": [
+          "zdj1RQBp7o"
+        ]
+      },
+      "inputs": {},
+      "options": {}
+    },
+    {
+      "name": "get_bot_info",
+      "info": {
+        "x": 549,
+        "y": 798,
+        "z": 7,
+        "color": "#5a5a5a",
+        "height": 113,
+        "width": 579
+      },
+      "inputs": {
+        "action": "yE40hbb3lj"
+      },
+      "options": {
+        "bot_info": "12"
+      },
+      "outputs": {
+        "action": [
+          "KaJxAYhZK3"
+        ],
+        "result": [
+          "sXNabg9yCq"
+        ]
+      }
+    },
+    {
+      "name": "bot_initialization_event",
+      "info": {
+        "x": 289,
+        "y": 799,
+        "z": 8,
+        "color": "#5a5a5a",
+        "height": 82,
+        "width": 242
+      },
+      "outputs": {
+        "action": [
+          "yE40hbb3lj"
+        ]
+      },
+      "inputs": {},
+      "options": {}
+    },
+    {
+      "name": "run_javascript_code",
+      "info": {
+        "x": 248,
+        "y": 1330,
+        "z": 9,
+        "color": "#5a5a5a",
+        "height": 268,
+        "width": 681
+      },
+      "inputs": {
+        "action": "OT6W7xiewH",
+        "javascript_code": "fgKFRMsGxd",
+        "value1": "sXNabg9yCq",
+        "value2": "XjBUER09Rf",
+        "value3": "mnWpsUMnUD"
+      },
+      "options": {
+        "block_behavior": "yes"
+      },
+      "outputs": {
+        "action": [],
+        "return_value": [],
+        "time_taken": [],
+        "value1": [],
+        "value2": [],
+        "value3": [],
+        "error_message": []
+      }
+    },
+    {
+      "name": "text",
+      "info": {
+        "x": 246,
+        "y": 896,
+        "z": 10,
+        "color": "#5a5a5a",
+        "height": 118,
+        "width": 305
+      },
+      "options": {
+        "text": "console.log(`Uptime:${Value1}`)"
+      },
+      "outputs": {
+        "text": [
+          "fgKFRMsGxd"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "get_variable",
+      "info": {
+        "x": 573,
+        "y": 1027,
+        "z": 11,
+        "color": "#5a5a5a",
+        "height": 165,
+        "width": 493
+      },
+      "inputs": {
+        "action": "KaJxAYhZK3",
+        "name": "yjIyPD3p1p",
+        "workspace_index": "MObsxPzwev"
+      },
+      "options": {
+        "variable_type": "temp",
+        "variable_restriction_type": "current"
+      },
+      "outputs": {
+        "action": [
+          "OT6W7xiewH"
+        ],
+        "value": []
+      }
+    },
+    {
+      "name": "text",
+      "info": {
+        "x": 262,
+        "y": 1200,
+        "z": 12,
+        "color": "#5a5a5a",
+        "height": 118,
+        "width": 305
+      },
+      "options": {
+        "text": "uptime"
+      },
+      "outputs": {
+        "text": [
+          "yjIyPD3p1p"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "number",
+      "info": {
+        "x": 566,
+        "y": 1215,
+        "z": 13,
+        "color": "#5a5a5a",
+        "height": 107,
+        "width": 343
+      },
+      "options": {
+        "number": "7"
+      },
+      "outputs": {
+        "number": [
+          "MObsxPzwev"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "bot_initialization_event",
+      "info": {
+        "x": 1231,
+        "y": 175,
+        "z": 14,
+        "color": "#5a5a5a",
+        "height": 82,
+        "width": 248
+      },
+      "outputs": {
+        "action": [
+          "rfiMrgK0wp"
+        ]
+      },
+      "inputs": {},
+      "options": {}
+    },
+    {
+      "name": "run_javascript_code",
+      "info": {
+        "x": 1237,
+        "y": 284,
+        "z": 15,
+        "color": "#5a5a5a",
+        "height": 268,
+        "width": 681
+      },
+      "inputs": {
+        "action": "rfiMrgK0wp",
+        "javascript_code": "zM7WrOi17x",
+        "value1": "YqqzYqnkgR",
+        "value2": "hymw5q0Eho",
+        "value3": "7YJQVvr2u3"
+      },
+      "options": {
+        "block_behavior": "yes"
+      },
+      "outputs": {
+        "action": [],
+        "return_value": [],
+        "time_taken": [],
+        "value1": [],
+        "value2": [],
+        "value3": [],
+        "error_message": []
+      }
+    },
+    {
+      "name": "text",
+      "info": {
+        "x": 1519,
+        "y": 157,
+        "z": 16,
+        "color": "#5a5a5a",
+        "height": 118,
+        "width": 305
+      },
+      "options": {
+        "text": "console.log`Prefix: t!`"
+      },
+      "outputs": {
+        "text": [
+          "zM7WrOi17x"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "text",
+      "info": {
+        "x": 1315,
+        "y": 612,
+        "z": 18,
+        "color": "#5a5a5a",
+        "height": 118,
+        "width": 305
+      },
+      "options": {
+        "text": "https://cdn-120.anonfiles.com/z9ido33ap6/f9f7878a-1609125833/update1.txt"
+      },
+      "outputs": {
+        "text": [
+          "KMt828kLU3"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "download_content",
+      "info": {
+        "x": 1647,
+        "y": 617,
+        "z": 19,
+        "color": "#5a5a5a",
+        "height": 206,
+        "width": 262
+      },
+      "inputs": {
+        "action": "TeuFyPWxyb",
+        "url": "KMt828kLU3",
+        "folder_path": "fIytZ1JmMI",
+        "file_name": "pIT2RkEIEf",
+        "file_extension": "bBzWtNMAjt"
+      },
+      "outputs": {
+        "action": []
+      },
+      "options": {}
+    },
+    {
+      "name": "bot_initialization_event",
+      "info": {
+        "x": 1341,
+        "y": 746,
+        "z": 20,
+        "color": "#5a5a5a",
+        "height": 82,
+        "width": 248
+      },
+      "outputs": {
+        "action": []
+      },
+      "inputs": {},
+      "options": {}
+    },
+    {
+      "name": "text",
+      "info": {
+        "x": 1292,
+        "y": 832,
+        "z": 21,
+        "color": "#5a5a5a",
+        "height": 118,
+        "width": 305
+      },
+      "options": {
+        "text": "update.txt"
+      },
+      "outputs": {
+        "text": [
+          "pIT2RkEIEf"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "run_javascript_code",
+      "info": {
+        "x": 1276,
+        "y": 972,
+        "z": 22,
+        "color": "#5a5a5a",
+        "height": 268,
+        "width": 681
+      },
+      "inputs": {
+        "action": "aWkNaqeEUl",
+        "javascript_code": "vJh63CNKJA",
+        "value1": "8iIz7K76EB",
+        "value2": "YrNbpprQnG",
+        "value3": "leuDsqSC6g"
+      },
+      "options": {
+        "block_behavior": "yes"
+      },
+      "outputs": {
+        "action": [
+          "TeuFyPWxyb"
+        ],
+        "return_value": [],
+        "time_taken": [],
+        "value1": [],
+        "value2": [],
+        "value3": [],
+        "error_message": []
+      }
+    },
+    {
+      "name": "text",
+      "info": {
+        "x": 1614,
+        "y": 850,
+        "z": 23,
+        "color": "#5a5a5a",
+        "height": 118,
+        "width": 305
+      },
+      "options": {
+        "text": "console.log(`CheckingFor Updates...`)"
+      },
+      "outputs": {
+        "text": [
+          "vJh63CNKJA"
+        ]
+      },
+      "inputs": {}
+    }
+  ],
+  "notes": [
+    {
+      "title": "Bot Prefix",
+      "description": "",
+      "color": "#034ebf",
+      "x": 285,
+      "y": 501,
+      "z": 1,
+      "width": 850,
+      "height": 222
+    },
+    {
+      "title": "Bot Status",
+      "description": "",
+      "color": "#2304be",
+      "x": 291,
+      "y": 163,
+      "z": 2,
+      "width": 781,
+      "height": 300
+    },
+    {
+      "title": "Bot Ready At",
+      "description": "",
+      "color": "#e40707",
+      "x": 227,
+      "y": 748,
+      "z": 3,
+      "width": 915,
+      "height": 862
+    },
+    {
+      "title": "",
+      "description": "&lt;-- JS Code\n\n↓ Varible Creation",
+      "color": "#2e0505",
+      "x": 573,
+      "y": 919,
+      "z": 4,
+      "width": 555,
+      "height": 107
+    },
+    {
+      "title": "Log Prefix",
+      "description": "",
+      "color": "#9e9600",
+      "x": 1201,
+      "y": 109,
+      "z": 5,
+      "width": 740,
+      "height": 465
+    },
+    {
+      "title": "Delete Me After 1st Bot Init (Update Checker) BETA",
+      "description": "",
+      "color": "#f90606",
+      "x": 1246,
+      "y": 569,
+      "z": 6,
+      "width": 731,
+      "height": 681
+    }
+  ]
+}
