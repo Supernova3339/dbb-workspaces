@@ -8,4 +8,5 @@ This repository isnt ment to be downloaded, please visit one of the following li
 Want To Add Your Own? Something Went Wrong? Join Our Support Server! [Discord](https://discord.gg/CWST75nZdX)
 [![----------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#Important)
 # 👨‍💻Credit
-Thanks to CyberDudeJ for contributing commands & events
+* SuperNova {creator}
+* Ydupc {AKA CyberDudeJ} Contributor
