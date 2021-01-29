@@ -1,0 +1,118 @@
+{
+  "info": {
+    "title": "[🚽] Say",
+    "description": "Says the message you told the bot to say..\n!say <message>\n\nCreated by Ydupc#4344",
+    "thumbnail": ""
+  },
+  "blocks": [
+    {
+      "name": "command_event",
+      "info": {
+        "x": 270,
+        "y": 209,
+        "z": 1,
+        "color": "#5a5a5a",
+        "height": 266.4,
+        "width": 758
+      },
+      "inputs": {
+        "command_name": "BWFJkX92VT",
+        "custom_prefix": "pPVxFW4sYV",
+        "command_slowmode": "zemwbOwMxW"
+      },
+      "options": {
+        "command_restriction": "none",
+        "required_member_permission": "none",
+        "case_sensitive": "no",
+        "command_slowmode_restriction": "none"
+      },
+      "outputs": {
+        "action1": [
+          "sPCcztrK8S"
+        ],
+        "action2": [],
+        "message": [
+          "YxoyKq3St0"
+        ],
+        "channel": [
+          "8aeuzHN28q"
+        ],
+        "user": [],
+        "error_message": []
+      }
+    },
+    {
+      "name": "text",
+      "info": {
+        "x": 270,
+        "y": 76,
+        "z": 2,
+        "color": "#5a5a5a",
+        "height": 120,
+        "width": 305
+      },
+      "options": {
+        "text": "say"
+      },
+      "outputs": {
+        "text": [
+          "BWFJkX92VT"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "get_message_arguments",
+      "info": {
+        "x": 1047,
+        "y": 242,
+        "z": 3,
+        "color": "#5a5a5a",
+        "height": 243.2,
+        "width": 456
+      },
+      "inputs": {
+        "action": "sPCcztrK8S",
+        "message": "YxoyKq3St0",
+        "argument_number": "yQZf5ntKuk",
+        "custom_argument_separator": "GpVRBJnCYZ"
+      },
+      "options": {
+        "argument_type": "multiple_arguments"
+      },
+      "outputs": {
+        "action": [
+          "ipct54aHmi"
+        ],
+        "result": [
+          "nEWEKQ4ZG3"
+        ]
+      }
+    },
+    {
+      "name": "send_message",
+      "info": {
+        "x": 1530,
+        "y": 349,
+        "z": 4,
+        "color": "#5a5a5a",
+        "height": 241.6,
+        "width": 280
+      },
+      "inputs": {
+        "action": "ipct54aHmi",
+        "channel": "8aeuzHN28q",
+        "text": "nEWEKQ4ZG3",
+        "embed": "GTMz3SvxWx",
+        "attachment": "bYl1daRIUd",
+        "split_message": "gk5Fnn8Lr9"
+      },
+      "outputs": {
+        "action": [],
+        "message": []
+      },
+      "options": {}
+    }
+  ],
+  "notes": []
+}
