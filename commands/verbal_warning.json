@@ -1,0 +1,276 @@
+{
+  "info": {
+    "title": "[〽️] Verbal Warning",
+    "description": "\\verbalwarning <user> <reason>\n\n==============\nCreated By: Ydupc#4344",
+    "thumbnail": ""
+  },
+  "blocks": [
+    {
+      "name": "text",
+      "info": {
+        "x": 313,
+        "y": 412,
+        "z": 1,
+        "color": "#5a5a5a",
+        "height": 120,
+        "width": 305
+      },
+      "options": {
+        "text": "verbalwarng"
+      },
+      "outputs": {
+        "text": [
+          "zNOZnGGNFj"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "command_event",
+      "info": {
+        "x": 270,
+        "y": 565,
+        "z": 2,
+        "color": "#5a5a5a",
+        "height": 267,
+        "width": 759
+      },
+      "inputs": {
+        "command_name": "zNOZnGGNFj",
+        "custom_prefix": "cHIqEh2Bc1",
+        "command_slowmode": "kchSmBRDgI"
+      },
+      "options": {
+        "command_restriction": "none",
+        "required_member_permission": "none",
+        "case_sensitive": "no",
+        "command_slowmode_restriction": "none"
+      },
+      "outputs": {
+        "action1": [
+          "gfFsbmjc2L"
+        ],
+        "action2": [],
+        "message": [
+          "h04RkHTMJ9",
+          "mo4ZX14INO"
+        ],
+        "channel": [
+          "ppZ7JswQdB"
+        ],
+        "user": [],
+        "error_message": []
+      }
+    },
+    {
+      "name": "get_message_arguments",
+      "info": {
+        "x": 1137,
+        "y": 580,
+        "z": 3,
+        "color": "#5a5a5a",
+        "height": 238,
+        "width": 457
+      },
+      "inputs": {
+        "action": "gfFsbmjc2L",
+        "message": "h04RkHTMJ9",
+        "argument_number": "QO4BtEQp5p",
+        "custom_argument_separator": "dczNKeZJQ8"
+      },
+      "options": {
+        "argument_type": "mentioned_member"
+      },
+      "outputs": {
+        "action": [
+          "46SMliGA7P"
+        ],
+        "result": [
+          "T7Nph7tcRA"
+        ]
+      }
+    },
+    {
+      "name": "get_message_arguments",
+      "info": {
+        "x": 1155,
+        "y": 859,
+        "z": 4,
+        "color": "#5a5a5a",
+        "height": 238,
+        "width": 457
+      },
+      "inputs": {
+        "action": "46SMliGA7P",
+        "message": "mo4ZX14INO",
+        "argument_number": "i4DG9VAz6E",
+        "custom_argument_separator": "CVgClpii9h"
+      },
+      "options": {
+        "argument_type": "multiple_arguments"
+      },
+      "outputs": {
+        "action": [
+          "7hrZ7VRxcj"
+        ],
+        "result": [
+          "MVq9NFbFN3"
+        ]
+      }
+    },
+    {
+      "name": "number",
+      "info": {
+        "x": 1254,
+        "y": 1149,
+        "z": 5,
+        "color": "#5a5a5a",
+        "height": 107,
+        "width": 343
+      },
+      "options": {
+        "number": "2"
+      },
+      "outputs": {
+        "number": [
+          "i4DG9VAz6E"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "merge_texts_advanced",
+      "info": {
+        "x": 1716,
+        "y": 734,
+        "z": 6,
+        "color": "#5a5a5a",
+        "height": 175,
+        "width": 418
+      },
+      "inputs": {
+        "action": "bVrpzyRIx8",
+        "text1": "SENFLfl5Om",
+        "text2": "MVq9NFbFN3",
+        "text3": "FVABpVVwk5"
+      },
+      "options": {
+        "text": "${text1} has got a warning for: ${text2}"
+      },
+      "outputs": {
+        "action": [
+          "SGB8n2aWOs"
+        ],
+        "text": [
+          "hv3wnjj8zA"
+        ]
+      }
+    },
+    {
+      "name": "create_embed_message",
+      "info": {
+        "x": 2224,
+        "y": 742,
+        "z": 7,
+        "color": "#5a5a5a",
+        "height": 517,
+        "width": 340
+      },
+      "inputs": {
+        "action": "SGB8n2aWOs",
+        "color": "hQDhcOxk91",
+        "thumbnail": "WlT6K0OrXZ",
+        "author_icon": "i6FbDPmoO1",
+        "author_name": "FHgfpEGaRK",
+        "author_url": "537hk6abcV",
+        "title": "rK1pFLyM03",
+        "url": "g5qB90lMBJ",
+        "description": "hv3wnjj8zA",
+        "image": "Ps2jQdtSm3",
+        "footer_icon": "EuT2wuC3zS",
+        "footer_text": "Gv0mm9iZMe",
+        "timestamp": "irkVPUhmc1"
+      },
+      "outputs": {
+        "action": [
+          "KkzPSEuX2E"
+        ],
+        "message_embed": [
+          "wm2lRzEDXB"
+        ]
+      },
+      "options": {}
+    },
+    {
+      "name": "text",
+      "info": {
+        "x": 1764,
+        "y": 979,
+        "z": 8,
+        "color": "#5a5a5a",
+        "height": 120,
+        "width": 305
+      },
+      "options": {
+        "text": "Citation Issued"
+      },
+      "outputs": {
+        "text": [
+          "rK1pFLyM03"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "send_message",
+      "info": {
+        "x": 2246,
+        "y": 1349,
+        "z": 9,
+        "color": "#5a5a5a",
+        "height": 237,
+        "width": 280
+      },
+      "inputs": {
+        "action": "KkzPSEuX2E",
+        "channel": "ppZ7JswQdB",
+        "text": "7s5Vid1kNa",
+        "embed": "wm2lRzEDXB",
+        "attachment": "E3q8gH2e5o",
+        "split_message": "zd2eGf4HMd"
+      },
+      "outputs": {
+        "action": [],
+        "message": []
+      },
+      "options": {}
+    },
+    {
+      "name": "get_member_info",
+      "info": {
+        "x": 1646,
+        "y": 569,
+        "z": 10,
+        "color": "#5a5a5a",
+        "height": 113,
+        "width": 740
+      },
+      "inputs": {
+        "action": "7hrZ7VRxcj",
+        "member": "T7Nph7tcRA"
+      },
+      "options": {
+        "member_info": "31"
+      },
+      "outputs": {
+        "action": [
+          "bVrpzyRIx8"
+        ],
+        "result": [
+          "SENFLfl5Om"
+        ]
+      }
+    }
+  ],
+  "notes": []
+}
