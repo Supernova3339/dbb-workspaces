@@ -1,0 +1,285 @@
+{
+  "info": {
+    "title": "[❓] DM latest joined member",
+    "description": "DMs new members when they join the server.\n\nBy Ydupc#4344",
+    "thumbnail": ""
+  },
+  "blocks": [
+    {
+      "name": "member_join_server_event",
+      "info": {
+        "x": 168,
+        "y": 151,
+        "z": 1,
+        "color": "#5a5a5a",
+        "height": 115.2,
+        "width": 265
+      },
+      "outputs": {
+        "action": [
+          "WG3AsnuBn9"
+        ],
+        "member": [
+          "t3mySsfAxw"
+        ]
+      }
+    },
+    {
+      "name": "get_member_info",
+      "info": {
+        "x": 462,
+        "y": 152,
+        "z": 2,
+        "color": "#5a5a5a",
+        "height": 115.2,
+        "width": 739
+      },
+      "inputs": {
+        "action": "WG3AsnuBn9",
+        "member": "t3mySsfAxw"
+      },
+      "options": {
+        "member_info": "27"
+      },
+      "outputs": {
+        "action": [
+          "LO1rxYBVqP"
+        ],
+        "result": [
+          "FApHk9jXLm"
+        ]
+      }
+    },
+    {
+      "name": "get_user_info",
+      "info": {
+        "x": 1225,
+        "y": 154,
+        "z": 3,
+        "color": "#5a5a5a",
+        "height": 115.2,
+        "width": 544
+      },
+      "inputs": {
+        "action": "LO1rxYBVqP",
+        "user": "FApHk9jXLm"
+      },
+      "options": {
+        "user_info": "8"
+      },
+      "outputs": {
+        "action": [
+          "xMd0i3S6FI"
+        ],
+        "result": [
+          "CXThgNVa0B"
+        ]
+      }
+    },
+    {
+      "name": "send_message",
+      "info": {
+        "x": 2928,
+        "y": 302,
+        "z": 4,
+        "color": "#5a5a5a",
+        "height": 241,
+        "width": 280
+      },
+      "inputs": {
+        "action": "hWZrLlnDJU",
+        "channel": "CXThgNVa0B",
+        "text": "uKDrqiz6WA",
+        "embed": "99GEnu7n0P",
+        "attachment": "X6lGJsQUxS",
+        "split_message": "ni2UenDLBh"
+      },
+      "outputs": {
+        "action": [],
+        "message": []
+      }
+    },
+    {
+      "name": "create_embed_message",
+      "info": {
+        "x": 1891,
+        "y": 156,
+        "z": 5,
+        "color": "#5a5a5a",
+        "height": 527.2,
+        "width": 340
+      },
+      "inputs": {
+        "action": "xMd0i3S6FI",
+        "color": "GO8M0J5ZQJ",
+        "thumbnail": "nWAdRLWcBl",
+        "author_icon": "XsVQEf7ZY5",
+        "author_name": "w87h1wxEvo",
+        "author_url": "mWpF9HPLZE",
+        "title": "VFQEuHX3Bc",
+        "url": "xEYCN8lAOv",
+        "description": "U2Jgi83GNp",
+        "image": "Om4mT0W8HV",
+        "footer_icon": "cuHwk7bKBc",
+        "footer_text": "COU3pYTBiD",
+        "timestamp": "hMRpywRy7s"
+      },
+      "outputs": {
+        "action": [
+          "xVkZXZO7dZ"
+        ],
+        "message_embed": [
+          "h7Ksyh8Dor"
+        ]
+      }
+    },
+    {
+      "name": "text",
+      "info": {
+        "x": 1469,
+        "y": 619,
+        "z": 6,
+        "color": "#5a5a5a",
+        "height": 120,
+        "width": 305
+      },
+      "options": {
+        "text": "You just joined a server! Thank You!"
+      },
+      "outputs": {
+        "text": [
+          "VFQEuHX3Bc"
+        ]
+      }
+    },
+    {
+      "name": "text",
+      "info": {
+        "x": 960,
+        "y": 341,
+        "z": 7,
+        "color": "#5a5a5a",
+        "height": 120,
+        "width": 305
+      },
+      "options": {
+        "text": "Make sure you read the rules and have fun. If you ever need any help what so ever, just contact a staff member!"
+      },
+      "outputs": {
+        "text": [
+          "U2Jgi83GNp"
+        ]
+      }
+    },
+    {
+      "name": "add_message_embed_field",
+      "info": {
+        "x": 2318,
+        "y": 270,
+        "z": 8,
+        "color": "#5a5a5a",
+        "height": 284,
+        "width": 507
+      },
+      "inputs": {
+        "action": "xVkZXZO7dZ",
+        "message_embed": "h7Ksyh8Dor",
+        "field_name": "qjCIjylziD",
+        "field_value": "B8BepfPvXJ",
+        "field_inline": "Q4TijzYtR7",
+        "custom_position": "zZVpQOhUF2"
+      },
+      "options": {
+        "position_type": "first"
+      },
+      "outputs": {
+        "action": [
+          "hWZrLlnDJU"
+        ],
+        "message_embed": [
+          "99GEnu7n0P"
+        ]
+      }
+    },
+    {
+      "name": "text",
+      "info": {
+        "x": 2240,
+        "y": 57,
+        "z": 9,
+        "color": "#5a5a5a",
+        "height": 120,
+        "width": 305
+      },
+      "options": {
+        "text": ":people_hugging: Join our partnered server!"
+      },
+      "outputs": {
+        "text": [
+          "qjCIjylziD"
+        ]
+      }
+    },
+    {
+      "name": "text",
+      "info": {
+        "x": 2688,
+        "y": 60,
+        "z": 10,
+        "color": "#5a5a5a",
+        "height": 120,
+        "width": 305
+      },
+      "options": {
+        "text": "https://discord.gg/BUZgyUM7J5\n\nand\n\nhttps://discord.gg/NWHwjvt2CV"
+      },
+      "outputs": {
+        "text": [
+          "B8BepfPvXJ"
+        ]
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": "Field 1 Title",
+      "description": "",
+      "color": "#dba50f",
+      "x": 2216,
+      "y": 0,
+      "z": 1,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "title": "Field 1 Description",
+      "description": "",
+      "color": "#c45454",
+      "x": 2636,
+      "y": 0,
+      "z": 2,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "title": "Main Embed's Description",
+      "description": "",
+      "color": "#32e28d",
+      "x": 924,
+      "y": 276,
+      "z": 3,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "title": "Main Embed's Title",
+      "description": "",
+      "color": "#5a5a5a",
+      "x": 1400,
+      "y": 515,
+      "z": 4,
+      "width": 400,
+      "height": 400
+    }
+  ]
+}
