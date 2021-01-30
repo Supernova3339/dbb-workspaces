@@ -1,5 +1,3 @@
-[version]: https://api.bintray.com/packages/dv8fromtheworld/maven/JDA/images/download.svg
-[download]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Supernova3339/mydbbcommands/tree/main/commands
 
 # DiscordBotBuilder Workspaces!
 Please Read README.md before downloading commands/events
