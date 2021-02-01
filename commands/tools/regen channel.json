@@ -1,0 +1,554 @@
+{
+  "info": {
+    "title": "[〽️] Regenerate Channel",
+    "description": "Deletes a channel and brings it back with the same channel properties\n",
+    "thumbnail": ""
+  },
+  "blocks": [
+    {
+      "name": "text",
+      "info": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "color": "#5a5a5a",
+        "height": 118,
+        "width": 305
+      },
+      "options": {
+        "text": "regen"
+      },
+      "outputs": {
+        "text": [
+          "ha6QzWrP0h"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "command_event",
+      "info": {
+        "x": 386,
+        "y": 23,
+        "z": 2,
+        "color": "#5a5a5a",
+        "height": 267,
+        "width": 759
+      },
+      "inputs": {
+        "command_name": "ha6QzWrP0h",
+        "custom_prefix": "yWYFGKJpBq",
+        "command_slowmode": "6En1GFD9lX"
+      },
+      "options": {
+        "command_restriction": "bot_owner_only",
+        "required_member_permission": "none",
+        "case_sensitive": "no",
+        "command_slowmode_restriction": "none"
+      },
+      "outputs": {
+        "action1": [
+          "iTJS2feNR0"
+        ],
+        "action2": [
+          "CF7N2uw8Hv"
+        ],
+        "message": [],
+        "channel": [
+          "5k8wUyrdRG",
+          "nLVad5SX50",
+          "qW9oGrnUPd",
+          "oydqQIXn93",
+          "RouqqjaU3V",
+          "nzzkCf0oqF",
+          "IJIW8yNmSW",
+          "tJ8HCatfzI",
+          "bAPljyJyh4"
+        ],
+        "user": [],
+        "error_message": []
+      }
+    },
+    {
+      "name": "get_text_channel_info",
+      "info": {
+        "x": 1202,
+        "y": 357,
+        "z": 3,
+        "color": "#5a5a5a",
+        "height": 113,
+        "width": 687
+      },
+      "inputs": {
+        "action": "iTJS2feNR0",
+        "text_channel": "5k8wUyrdRG"
+      },
+      "options": {
+        "text_channel_info": "13"
+      },
+      "outputs": {
+        "action": [
+          "wuffGQZ3pz"
+        ],
+        "result": [
+          "1sW9ktkuQq",
+          "VyY7g0rqwf",
+          "es7TVAk8Ds"
+        ]
+      }
+    },
+    {
+      "name": "get_text_channel_info",
+      "info": {
+        "x": 1208,
+        "y": 482,
+        "z": 4,
+        "color": "#5a5a5a",
+        "height": 113,
+        "width": 687
+      },
+      "inputs": {
+        "action": "wuffGQZ3pz",
+        "text_channel": "nLVad5SX50"
+      },
+      "options": {
+        "text_channel_info": "21"
+      },
+      "outputs": {
+        "action": [
+          "f6HkquFtCy"
+        ],
+        "result": [
+          "2fyNzOrrgu",
+          "aNLtc8kKMI",
+          "YRdQm3W5gj"
+        ]
+      }
+    },
+    {
+      "name": "get_text_channel_info",
+      "info": {
+        "x": 1218,
+        "y": 611,
+        "z": 5,
+        "color": "#5a5a5a",
+        "height": 113,
+        "width": 687
+      },
+      "inputs": {
+        "action": "f6HkquFtCy",
+        "text_channel": "qW9oGrnUPd"
+      },
+      "options": {
+        "text_channel_info": "18"
+      },
+      "outputs": {
+        "action": [
+          "xUzBZlgrD2"
+        ],
+        "result": [
+          "nHEnra9KSb",
+          "ikexRwYZdC",
+          "9wWqEeFhIR"
+        ]
+      }
+    },
+    {
+      "name": "delete_channel",
+      "info": {
+        "x": 1883,
+        "y": 156,
+        "z": 6,
+        "color": "#5a5a5a",
+        "height": 144,
+        "width": 223
+      },
+      "inputs": {
+        "action": "rvSJVG2Pdq",
+        "channel": "oydqQIXn93",
+        "reason": "VqKpkUZRxp"
+      },
+      "outputs": {
+        "action": [
+          "RiX01UjzAl"
+        ]
+      },
+      "options": {}
+    },
+    {
+      "name": "text",
+      "info": {
+        "x": 1914,
+        "y": 0,
+        "z": 7,
+        "color": "#5a5a5a",
+        "height": 118,
+        "width": 305
+      },
+      "options": {
+        "text": "Channel is being regenerated"
+      },
+      "outputs": {
+        "text": [
+          "VqKpkUZRxp",
+          "cd14LOrKjk"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "create_text_channel",
+      "info": {
+        "x": 2204,
+        "y": 117,
+        "z": 8,
+        "color": "#5a5a5a",
+        "height": 400.8,
+        "width": 320
+      },
+      "inputs": {
+        "action": "RiX01UjzAl",
+        "server": "8MqKmcBoI5",
+        "channel_name": "1sW9ktkuQq",
+        "channel_topic": "2fyNzOrrgu",
+        "channel_position": "nHEnra9KSb",
+        "channel_nsfw": "wFruuf1v6G",
+        "channel_slowmode": "v1K2lSya6d",
+        "channel_category": "M956pYFQ2v",
+        "reason": "cd14LOrKjk"
+      },
+      "outputs": {
+        "action": [
+          "7Z7tmkdFkS"
+        ],
+        "text_channel": [
+          "2BGAI3v3x4"
+        ]
+      },
+      "options": {}
+    },
+    {
+      "name": "get_text_channel_info",
+      "info": {
+        "x": 1200,
+        "y": 1138,
+        "z": 9,
+        "color": "#5a5a5a",
+        "height": 115.2,
+        "width": 686
+      },
+      "inputs": {
+        "action": "WwdRXCxWJx",
+        "text_channel": "RouqqjaU3V"
+      },
+      "options": {
+        "text_channel_info": "4"
+      },
+      "outputs": {
+        "action": [
+          "rvSJVG2Pdq"
+        ],
+        "result": [
+          "8MqKmcBoI5"
+        ]
+      }
+    },
+    {
+      "name": "get_text_channel_info",
+      "info": {
+        "x": 1212,
+        "y": 739,
+        "z": 10,
+        "color": "#5a5a5a",
+        "height": 113,
+        "width": 687
+      },
+      "inputs": {
+        "action": "xUzBZlgrD2",
+        "text_channel": "nzzkCf0oqF"
+      },
+      "options": {
+        "text_channel_info": "19"
+      },
+      "outputs": {
+        "action": [
+          "tZvNTLlwSq"
+        ],
+        "result": [
+          "v1K2lSya6d",
+          "1aszY0upa6",
+          "dQXJJhXwCz"
+        ]
+      }
+    },
+    {
+      "name": "get_text_channel_info",
+      "info": {
+        "x": 1219,
+        "y": 876,
+        "z": 11,
+        "color": "#5a5a5a",
+        "height": 113,
+        "width": 687
+      },
+      "inputs": {
+        "action": "tZvNTLlwSq",
+        "text_channel": "IJIW8yNmSW"
+      },
+      "options": {
+        "text_channel_info": "14"
+      },
+      "outputs": {
+        "action": [
+          "0esMpV0KGy"
+        ],
+        "result": [
+          "wFruuf1v6G",
+          "bj5m5fLnPn",
+          "6eZf8m9MSr"
+        ]
+      }
+    },
+    {
+      "name": "get_text_channel_info",
+      "info": {
+        "x": 1217,
+        "y": 1018,
+        "z": 12,
+        "color": "#5a5a5a",
+        "height": 113,
+        "width": 687
+      },
+      "inputs": {
+        "action": "0esMpV0KGy",
+        "text_channel": "tJ8HCatfzI"
+      },
+      "options": {
+        "text_channel_info": "15"
+      },
+      "outputs": {
+        "action": [
+          "WwdRXCxWJx"
+        ],
+        "result": [
+          "M956pYFQ2v",
+          "SBhXe3wZ4t",
+          "o70SlchAfO"
+        ]
+      }
+    },
+    {
+      "name": "number",
+      "info": {
+        "x": 2178,
+        "y": 542,
+        "z": 14,
+        "color": "#5a5a5a",
+        "height": 107,
+        "width": 343
+      },
+      "options": {
+        "number": "3500"
+      },
+      "outputs": {
+        "number": []
+      },
+      "inputs": {}
+    },
+    {
+      "name": "text",
+      "info": {
+        "x": 2209,
+        "y": 665,
+        "z": 16,
+        "color": "#5a5a5a",
+        "height": 118,
+        "width": 305
+      },
+      "options": {
+        "text": "Text Channel was Successfully Regenerated."
+      },
+      "outputs": {
+        "text": []
+      },
+      "inputs": {}
+    },
+    {
+      "name": "console_log",
+      "info": {
+        "x": 4586,
+        "y": 665,
+        "z": 17,
+        "color": "#5a5a5a",
+        "height": 113,
+        "width": 211
+      },
+      "inputs": {
+        "action": "BzPW6hSXYq",
+        "value": "zJdyPzKUUJ"
+      },
+      "outputs": {
+        "action": []
+      },
+      "options": {}
+    },
+    {
+      "name": "merge_texts_advanced",
+      "info": {
+        "x": 3251,
+        "y": 140,
+        "z": 18,
+        "color": "#5a5a5a",
+        "height": 281,
+        "width": 560
+      },
+      "inputs": {
+        "action": "5TlY4Jl3YI",
+        "text1": "VyY7g0rqwf",
+        "text2": "aNLtc8kKMI",
+        "text3": "ikexRwYZdC"
+      },
+      "options": {
+        "text": "Text channel name: ${text1}\n\nText Channel topic: ${text2}\n\nText Channel Position: ${text3}"
+      },
+      "outputs": {
+        "action": [
+          "TttoPFhynd"
+        ],
+        "text": [
+          "Ur7uKNPkEd"
+        ]
+      }
+    },
+    {
+      "name": "merge_texts_advanced",
+      "info": {
+        "x": 3252,
+        "y": 433,
+        "z": 19,
+        "color": "#5a5a5a",
+        "height": 317,
+        "width": 567
+      },
+      "inputs": {
+        "action": "TttoPFhynd",
+        "text1": "1aszY0upa6",
+        "text2": "bj5m5fLnPn",
+        "text3": "SBhXe3wZ4t"
+      },
+      "options": {
+        "text": "Text Channel Slowmode: ${text1}\n\nIs Text Channel NSFW?: ${text2}\n\nText Channel Category: ${text3}"
+      },
+      "outputs": {
+        "action": [
+          "c4M3uaNRPb"
+        ],
+        "text": [
+          "EWenWPih6X"
+        ]
+      }
+    },
+    {
+      "name": "merge_texts_advanced",
+      "info": {
+        "x": 3973,
+        "y": 611,
+        "z": 21,
+        "color": "#5a5a5a",
+        "height": 175,
+        "width": 559
+      },
+      "inputs": {
+        "action": "c4M3uaNRPb",
+        "text1": "Ur7uKNPkEd",
+        "text2": "EWenWPih6X",
+        "text3": "Ci2Cu6vRRA"
+      },
+      "options": {
+        "text": "\n=-=-=Channel Regeneration Results=-=-=\n\n${text1}\n\n${text2}"
+      },
+      "outputs": {
+        "action": [
+          "BzPW6hSXYq"
+        ],
+        "text": [
+          "zJdyPzKUUJ"
+        ]
+      }
+    },
+    {
+      "name": "edit_text_channel",
+      "info": {
+        "x": 2767,
+        "y": 48,
+        "z": 25,
+        "color": "#5a5a5a",
+        "height": 487,
+        "width": 276
+      },
+      "inputs": {
+        "action": "7Z7tmkdFkS",
+        "text_channel": "2BGAI3v3x4",
+        "channel_name": "es7TVAk8Ds",
+        "channel_topic": "YRdQm3W5gj",
+        "channel_position": "9wWqEeFhIR",
+        "channel_nsfw": "6eZf8m9MSr",
+        "channel_slowmode": "dQXJJhXwCz",
+        "channel_category": "o70SlchAfO",
+        "channel_permission_synchronization": "TZeH8OxsvX",
+        "reason": "HcNwGYQPB0"
+      },
+      "outputs": {
+        "action": [
+          "5TlY4Jl3YI"
+        ]
+      },
+      "options": {}
+    },
+    {
+      "name": "text",
+      "info": {
+        "x": 0,
+        "y": 562,
+        "z": 26,
+        "color": "#5a5a5a",
+        "height": 148,
+        "width": 321
+      },
+      "options": {
+        "text": "Sorry. You do not have permission to purge and reload channels."
+      },
+      "outputs": {
+        "text": [
+          "7oA4RxpDS0"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "send_message",
+      "info": {
+        "x": 779,
+        "y": 367,
+        "z": 27,
+        "color": "#5a5a5a",
+        "height": 237,
+        "width": 280
+      },
+      "inputs": {
+        "action": "CF7N2uw8Hv",
+        "channel": "bAPljyJyh4",
+        "text": "7oA4RxpDS0",
+        "embed": "kB02AyL1lr",
+        "attachment": "sbv3ZLDzaL",
+        "split_message": "FqUOOvkWWB"
+      },
+      "outputs": {
+        "action": [],
+        "message": []
+      },
+      "options": {}
+    }
+  ],
+  "notes": []
+}
