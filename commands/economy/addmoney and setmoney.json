@@ -1,0 +1,531 @@
+{
+  "info": {
+    "title": "economy.setmoney",
+    "description": "!addmoney <UserMention> <MoneyNumber>\n!setmoney <UserMention> <MoneyNumber>\n[JUST FOR BOT OWNER]\n\n",
+    "thumbnail": ""
+  },
+  "blocks": [
+    {
+      "name": "command_event",
+      "info": {
+        "x": 0,
+        "y": 123,
+        "z": 1,
+        "color": "#5a5a5a",
+        "height": 266.4,
+        "width": 758
+      },
+      "inputs": {
+        "command_name": "IRHY8BUKqU",
+        "custom_prefix": "MPzw9QZNbh",
+        "command_slowmode": "u3Q0XJPrsd"
+      },
+      "options": {
+        "command_restriction": "bot_owner_only",
+        "required_member_permission": "none",
+        "case_sensitive": "no",
+        "command_slowmode_restriction": "none"
+      },
+      "outputs": {
+        "action1": [
+          "FN4UD86LpI"
+        ],
+        "action2": [],
+        "message": [
+          "sQZL9KfwRq",
+          "fJpE7nGmUF",
+          "CTREx6B49L"
+        ],
+        "channel": [
+          "0DPNGhIhts"
+        ],
+        "user": [],
+        "error_message": []
+      }
+    },
+    {
+      "name": "text",
+      "info": {
+        "x": 0,
+        "y": 0,
+        "z": 2,
+        "color": "#5a5a5a",
+        "height": 120,
+        "width": 307
+      },
+      "options": {
+        "text": "addmoney"
+      },
+      "outputs": {
+        "text": [
+          "IRHY8BUKqU"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "check_message_arguments",
+      "info": {
+        "x": 771,
+        "y": 134,
+        "z": 3,
+        "color": "#5a5a5a",
+        "height": 221.6,
+        "width": 590
+      },
+      "inputs": {
+        "action": "FN4UD86LpI",
+        "message": "sQZL9KfwRq",
+        "number": "SYMQuCn4ky",
+        "custom_argument_separator": "QFX6G1On4a"
+      },
+      "options": {
+        "arguments_type": "arguments",
+        "comparison_type": "greater_than_or_equal"
+      },
+      "outputs": {
+        "action1": [
+          "KGSq6UARXw"
+        ],
+        "action2": []
+      }
+    },
+    {
+      "name": "number",
+      "info": {
+        "x": 361,
+        "y": 0,
+        "z": 4,
+        "color": "#5a5a5a",
+        "height": 108,
+        "width": 330
+      },
+      "options": {
+        "number": "2"
+      },
+      "outputs": {
+        "number": [
+          "SYMQuCn4ky",
+          "KW8fa4y5k5",
+          "fqGAqzO8yY",
+          "o5wms3er5u"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "get_message_arguments",
+      "info": {
+        "x": 1417,
+        "y": 170,
+        "z": 5,
+        "color": "#5a5a5a",
+        "height": 243.2,
+        "width": 456
+      },
+      "inputs": {
+        "action": "KGSq6UARXw",
+        "message": "fJpE7nGmUF",
+        "argument_number": "FfgqF4FvGe",
+        "custom_argument_separator": "89A8bvGKTb"
+      },
+      "options": {
+        "argument_type": "mentioned_user"
+      },
+      "outputs": {
+        "action": [
+          "GlNEYy72qF"
+        ],
+        "result": [
+          "PymOyKHikT",
+          "RBXP95kukJ"
+        ]
+      }
+    },
+    {
+      "name": "get_message_arguments",
+      "info": {
+        "x": 1419,
+        "y": 421,
+        "z": 6,
+        "color": "#5a5a5a",
+        "height": 243.2,
+        "width": 456
+      },
+      "inputs": {
+        "action": "GlNEYy72qF",
+        "message": "CTREx6B49L",
+        "argument_number": "KW8fa4y5k5",
+        "custom_argument_separator": "k29i35GDGt"
+      },
+      "options": {
+        "argument_type": "one_argument"
+      },
+      "outputs": {
+        "action": [
+          "Knf0DhcCBq"
+        ],
+        "result": [
+          "7mbuqfX9cY"
+        ]
+      }
+    },
+    {
+      "name": "get_data",
+      "info": {
+        "x": 2039,
+        "y": 534,
+        "z": 7,
+        "color": "#5a5a5a",
+        "height": 168,
+        "width": 392
+      },
+      "inputs": {
+        "action": "Knf0DhcCBq",
+        "name": "DxibnFwbgR",
+        "target": "PymOyKHikT"
+      },
+      "options": {
+        "data_type": "user"
+      },
+      "outputs": {
+        "action": [
+          "ORIRfBTPyG"
+        ],
+        "value": [
+          "F5VvqjeZHR"
+        ]
+      }
+    },
+    {
+      "name": "number",
+      "info": {
+        "x": 2126,
+        "y": 255,
+        "z": 8,
+        "color": "#5a5a5a",
+        "height": 108,
+        "width": 330
+      },
+      "options": {
+        "number": ""
+      },
+      "outputs": {
+        "number": []
+      },
+      "inputs": {}
+    },
+    {
+      "name": "text",
+      "info": {
+        "x": 1198,
+        "y": 836,
+        "z": 9,
+        "color": "#5a5a5a",
+        "height": 120,
+        "width": 307
+      },
+      "options": {
+        "text": "money"
+      },
+      "outputs": {
+        "text": [
+          "DxibnFwbgR",
+          "z9ryN4rT4W",
+          "Z2ooFj5Jdi"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "math_operations",
+      "info": {
+        "x": 1621,
+        "y": 783,
+        "z": 10,
+        "color": "#5a5a5a",
+        "height": 168,
+        "width": 484
+      },
+      "inputs": {
+        "action": "ORIRfBTPyG",
+        "number1": "F5VvqjeZHR",
+        "number2": "7mbuqfX9cY"
+      },
+      "options": {
+        "math_operation_type": "addition"
+      },
+      "outputs": {
+        "action": [
+          "uMqTe3P7Gk"
+        ],
+        "number": [
+          "VlN7egrPFg"
+        ]
+      }
+    },
+    {
+      "name": "control_data",
+      "info": {
+        "x": 2153,
+        "y": 770,
+        "z": 11,
+        "color": "#5a5a5a",
+        "height": 200,
+        "width": 404
+      },
+      "inputs": {
+        "action": "uMqTe3P7Gk",
+        "name": "z9ryN4rT4W",
+        "value": "VlN7egrPFg",
+        "target": "RBXP95kukJ"
+      },
+      "options": {
+        "action_type": "set",
+        "data_type": "user"
+      },
+      "outputs": {
+        "action": [
+          "9E9twNm7ij"
+        ]
+      }
+    },
+    {
+      "name": "send_message",
+      "info": {
+        "x": 2566,
+        "y": 734,
+        "z": 12,
+        "color": "#5a5a5a",
+        "height": 241.6,
+        "width": 280
+      },
+      "inputs": {
+        "action": "9E9twNm7ij",
+        "channel": "0DPNGhIhts",
+        "text": "r1UOdBeT3X",
+        "embed": "kSHc7h58ND",
+        "attachment": "FyaTsRvcKn",
+        "split_message": "8K1DKrOG0G"
+      },
+      "outputs": {
+        "action": [],
+        "message": []
+      },
+      "options": {}
+    },
+    {
+      "name": "text",
+      "info": {
+        "x": 2313,
+        "y": 995,
+        "z": 13,
+        "color": "#5a5a5a",
+        "height": 120,
+        "width": 305
+      },
+      "options": {
+        "text": "Set / added to the user's ⏣s!"
+      },
+      "outputs": {
+        "text": [
+          "r1UOdBeT3X",
+          "Stjm1NCqrK"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "command_event",
+      "info": {
+        "x": 0,
+        "y": 1143,
+        "z": 14,
+        "color": "#5a5a5a",
+        "height": 266.4,
+        "width": 758
+      },
+      "inputs": {
+        "command_name": "CSIxiQ4tEJ",
+        "custom_prefix": "F19AQ65EAK",
+        "command_slowmode": "F1MEdUNCJz"
+      },
+      "options": {
+        "command_restriction": "bot_owner_only",
+        "required_member_permission": "none",
+        "case_sensitive": "no",
+        "command_slowmode_restriction": "none"
+      },
+      "outputs": {
+        "action1": [
+          "7X7N9PXmHm"
+        ],
+        "action2": [],
+        "message": [
+          "nUd1vMxOaP",
+          "0fpPevV5fM",
+          "Z4FF9FlYWa"
+        ],
+        "channel": [
+          "FyWksxwBkz"
+        ],
+        "user": [],
+        "error_message": []
+      }
+    },
+    {
+      "name": "text",
+      "info": {
+        "x": 0,
+        "y": 1016,
+        "z": 15,
+        "color": "#5a5a5a",
+        "height": 120,
+        "width": 307
+      },
+      "options": {
+        "text": "setmoney"
+      },
+      "outputs": {
+        "text": [
+          "CSIxiQ4tEJ"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "check_message_arguments",
+      "info": {
+        "x": 207,
+        "y": 1430,
+        "z": 16,
+        "color": "#5a5a5a",
+        "height": 221.6,
+        "width": 590
+      },
+      "inputs": {
+        "action": "7X7N9PXmHm",
+        "message": "nUd1vMxOaP",
+        "number": "fqGAqzO8yY",
+        "custom_argument_separator": "guMhbtsasa"
+      },
+      "options": {
+        "arguments_type": "arguments",
+        "comparison_type": "equal"
+      },
+      "outputs": {
+        "action1": [
+          "VMRIkAkujY"
+        ],
+        "action2": []
+      }
+    },
+    {
+      "name": "get_message_arguments",
+      "info": {
+        "x": 780,
+        "y": 1152,
+        "z": 17,
+        "color": "#5a5a5a",
+        "height": 243.2,
+        "width": 456
+      },
+      "inputs": {
+        "action": "VMRIkAkujY",
+        "message": "0fpPevV5fM",
+        "argument_number": "SIpx1wUh71",
+        "custom_argument_separator": "kC9z23evsK"
+      },
+      "options": {
+        "argument_type": "mentioned_user"
+      },
+      "outputs": {
+        "action": [
+          "o4jAnp58Tu"
+        ],
+        "result": [
+          "KJNUq1rz11"
+        ]
+      }
+    },
+    {
+      "name": "get_message_arguments",
+      "info": {
+        "x": 842,
+        "y": 1423,
+        "z": 18,
+        "color": "#5a5a5a",
+        "height": 243.2,
+        "width": 456
+      },
+      "inputs": {
+        "action": "o4jAnp58Tu",
+        "message": "Z4FF9FlYWa",
+        "argument_number": "o5wms3er5u",
+        "custom_argument_separator": "Fy3wCnltlw"
+      },
+      "options": {
+        "argument_type": "one_argument"
+      },
+      "outputs": {
+        "action": [
+          "ogur1D5AvT"
+        ],
+        "result": [
+          "tFhgNmm3tH"
+        ]
+      }
+    },
+    {
+      "name": "control_data",
+      "info": {
+        "x": 1388,
+        "y": 1421,
+        "z": 19,
+        "color": "#5a5a5a",
+        "height": 200,
+        "width": 404
+      },
+      "inputs": {
+        "action": "ogur1D5AvT",
+        "name": "Z2ooFj5Jdi",
+        "value": "tFhgNmm3tH",
+        "target": "KJNUq1rz11"
+      },
+      "options": {
+        "action_type": "set",
+        "data_type": "user"
+      },
+      "outputs": {
+        "action": [
+          "UK27WXYtWH"
+        ]
+      }
+    },
+    {
+      "name": "send_message",
+      "info": {
+        "x": 1831,
+        "y": 1384,
+        "z": 20,
+        "color": "#5a5a5a",
+        "height": 241.6,
+        "width": 280
+      },
+      "inputs": {
+        "action": "UK27WXYtWH",
+        "channel": "FyWksxwBkz",
+        "text": "Stjm1NCqrK",
+        "embed": "UJO8MgglTX",
+        "attachment": "OhwhtwccAR",
+        "split_message": "Deq3ftsG8r"
+      },
+      "outputs": {
+        "action": [],
+        "message": []
+      },
+      "options": {}
+    }
+  ],
+  "notes": []
+}
