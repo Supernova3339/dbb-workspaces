@@ -19,9 +19,7 @@
         "action": [
           "eSA4skXqzh"
         ]
-      },
-      "inputs": {},
-      "options": {}
+      }
     },
     {
       "name": "set_bot_activity",
@@ -62,8 +60,7 @@
         "text": [
           "6Y4G6AAtjz"
         ]
-      },
-      "inputs": {}
+      }
     },
     {
       "name": "change_bot_prefix",
@@ -82,8 +79,7 @@
       },
       "outputs": {
         "action": []
-      },
-      "options": {}
+      }
     },
     {
       "name": "text",
@@ -102,8 +98,7 @@
         "text": [
           "bCBkJ9s68b"
         ]
-      },
-      "inputs": {}
+      }
     },
     {
       "name": "bot_initialization_event",
@@ -119,9 +114,7 @@
         "action": [
           "zdj1RQBp7o"
         ]
-      },
-      "inputs": {},
-      "options": {}
+      }
     },
     {
       "name": "get_bot_info",
@@ -162,9 +155,7 @@
         "action": [
           "yE40hbb3lj"
         ]
-      },
-      "inputs": {},
-      "options": {}
+      }
     },
     {
       "name": "run_javascript_code",
@@ -213,8 +204,7 @@
         "text": [
           "fgKFRMsGxd"
         ]
-      },
-      "inputs": {}
+      }
     },
     {
       "name": "get_variable",
@@ -259,8 +249,7 @@
         "text": [
           "yjIyPD3p1p"
         ]
-      },
-      "inputs": {}
+      }
     },
     {
       "name": "number",
@@ -279,8 +268,7 @@
         "number": [
           "MObsxPzwev"
         ]
-      },
-      "inputs": {}
+      }
     },
     {
       "name": "bot_initialization_event",
@@ -296,9 +284,7 @@
         "action": [
           "rfiMrgK0wp"
         ]
-      },
-      "inputs": {},
-      "options": {}
+      }
     },
     {
       "name": "run_javascript_code",
@@ -347,8 +333,7 @@
         "text": [
           "zM7WrOi17x"
         ]
-      },
-      "inputs": {}
+      }
     },
     {
       "name": "text",
@@ -367,8 +352,7 @@
         "text": [
           "KMt828kLU3"
         ]
-      },
-      "inputs": {}
+      }
     },
     {
       "name": "download_content",
@@ -389,8 +373,7 @@
       },
       "outputs": {
         "action": []
-      },
-      "options": {}
+      }
     },
     {
       "name": "bot_initialization_event",
@@ -404,9 +387,7 @@
       },
       "outputs": {
         "action": []
-      },
-      "inputs": {},
-      "options": {}
+      }
     },
     {
       "name": "text",
@@ -425,8 +406,7 @@
         "text": [
           "pIT2RkEIEf"
         ]
-      },
-      "inputs": {}
+      }
     },
     {
       "name": "run_javascript_code",
@@ -477,20 +457,19 @@
         "text": [
           "vJh63CNKJA"
         ]
-      },
-      "inputs": {}
+      }
     }
   ],
   "notes": [
     {
-      "title": "Bot Prefix",
+      "title": "Bot Prefix (Delete If Bot Uses Server Prefix)",
       "description": "",
       "color": "#034ebf",
       "x": 285,
       "y": 501,
       "z": 1,
-      "width": 850,
-      "height": 222
+      "width": 849,
+      "height": 221
     },
     {
       "title": "Bot Status",
