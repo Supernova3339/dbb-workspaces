@@ -1,0 +1,279 @@
+{
+  "info": {
+    "title": "Set Server Prefix",
+    "description": "By Supernova",
+    "thumbnail": "https://cdn.wallpapersafari.com/42/24/i2R560.jpg"
+  },
+  "blocks": [
+    {
+      "name": "command_event",
+      "info": {
+        "x": 348,
+        "y": 299,
+        "z": 1,
+        "color": "#5a5a5a",
+        "height": 266.4,
+        "width": 758
+      },
+      "inputs": {
+        "command_name": "GjnGKgNIZV",
+        "custom_prefix": "AC0zZA8ojS",
+        "command_slowmode": "zcVsm4cnM5"
+      },
+      "options": {
+        "command_restriction": "none",
+        "required_member_permission": "none",
+        "case_sensitive": "no",
+        "command_slowmode_restriction": "none"
+      },
+      "outputs": {
+        "action1": [
+          "9E5PDVB6Z8"
+        ],
+        "action2": [],
+        "message": [
+          "1wuLDtvjFS"
+        ],
+        "channel": [
+          "5dBJFlNinS",
+          "FeABs0fzXO"
+        ],
+        "user": [],
+        "error_message": []
+      }
+    },
+    {
+      "name": "text",
+      "info": {
+        "x": 26,
+        "y": 320,
+        "z": 2,
+        "color": "#5a5a5a",
+        "height": 120,
+        "width": 305
+      },
+      "options": {
+        "text": "prefix"
+      },
+      "outputs": {
+        "text": [
+          "GjnGKgNIZV"
+        ]
+      }
+    },
+    {
+      "name": "change_bot_prefix",
+      "info": {
+        "x": 2102,
+        "y": 117,
+        "z": 3,
+        "color": "#5a5a5a",
+        "height": 146.4,
+        "width": 241
+      },
+      "inputs": {
+        "action": "NbZd71ljuF",
+        "prefix": "OMRGc2Udax",
+        "server": "9wSLnWnJZ3"
+      },
+      "outputs": {
+        "action": [
+          "e9pxcSpKwR"
+        ]
+      }
+    },
+    {
+      "name": "get_message_arguments",
+      "info": {
+        "x": 1309,
+        "y": 152,
+        "z": 4,
+        "color": "#5a5a5a",
+        "height": 243.2,
+        "width": 456
+      },
+      "inputs": {
+        "action": "9E5PDVB6Z8",
+        "message": "1wuLDtvjFS",
+        "argument_number": "MtZ4MNrPFt",
+        "custom_argument_separator": "1xEtI6Huuv"
+      },
+      "options": {
+        "argument_type": "one_argument"
+      },
+      "outputs": {
+        "action": [],
+        "result": [
+          "OMRGc2Udax",
+          "M5ceRrnNHB"
+        ]
+      }
+    },
+    {
+      "name": "find_server",
+      "info": {
+        "x": 1362,
+        "y": 581,
+        "z": 5,
+        "color": "#5a5a5a",
+        "height": 115.2,
+        "width": 455
+      },
+      "inputs": {
+        "action": "rwOwEpA8Ec",
+        "search_value": "QOdJuRlQBi"
+      },
+      "options": {
+        "find_server_by": "id"
+      },
+      "outputs": {
+        "action": [],
+        "server": [
+          "9wSLnWnJZ3"
+        ]
+      }
+    },
+    {
+      "name": "get_server_info",
+      "info": {
+        "x": 1241,
+        "y": 434,
+        "z": 6,
+        "color": "#5a5a5a",
+        "height": 115.2,
+        "width": 620
+      },
+      "inputs": {
+        "action": "WMEG0UYuWs",
+        "server": "5dBJFlNinS"
+      },
+      "options": {
+        "server_info": "17"
+      },
+      "outputs": {
+        "action": [],
+        "result": [
+          "QOdJuRlQBi"
+        ]
+      }
+    },
+    {
+      "name": "send_message",
+      "info": {
+        "x": 2045,
+        "y": 344,
+        "z": 7,
+        "color": "#5a5a5a",
+        "height": 241.6,
+        "width": 280
+      },
+      "inputs": {
+        "action": "YxTWNtZFX6",
+        "channel": "FeABs0fzXO",
+        "text": "33kyTmxYk7",
+        "embed": "DxEVdr7uzK",
+        "attachment": "yn9pLuYbV1",
+        "split_message": "nYqOjS1y0r"
+      },
+      "outputs": {
+        "action": [
+          "5AZffEBbqR"
+        ],
+        "message": [
+          "BmINoFXQXa"
+        ]
+      }
+    },
+    {
+      "name": "merge_texts_advanced",
+      "info": {
+        "x": 1803,
+        "y": 658,
+        "z": 8,
+        "color": "#5a5a5a",
+        "height": 178.4,
+        "width": 419
+      },
+      "inputs": {
+        "action": "e9pxcSpKwR",
+        "text1": "M5ceRrnNHB",
+        "text2": "2UKkmCVxfP",
+        "text3": "pDAq50fUdG"
+      },
+      "options": {
+        "text": "Changed prefix to ${text1} "
+      },
+      "outputs": {
+        "action": [
+          "YxTWNtZFX6"
+        ],
+        "text": [
+          "33kyTmxYk7"
+        ]
+      }
+    },
+    {
+      "name": "delete_message",
+      "info": {
+        "x": 2383,
+        "y": 364,
+        "z": 9,
+        "color": "#5a5a5a",
+        "height": 200,
+        "width": 276
+      },
+      "inputs": {
+        "action": "rYFk96wm35",
+        "message": "BmINoFXQXa",
+        "timeout": "5Rr7e5wc7b",
+        "reason": "fi2pgiTg08"
+      },
+      "outputs": {
+        "action": []
+      }
+    },
+    {
+      "name": "wait",
+      "info": {
+        "x": 2373,
+        "y": 228,
+        "z": 10,
+        "color": "#5a5a5a",
+        "height": 115.2,
+        "width": 350
+      },
+      "inputs": {
+        "action": "5AZffEBbqR",
+        "time": "4hGUjMqHGd"
+      },
+      "options": {
+        "time_type": "seconds"
+      },
+      "outputs": {
+        "action": [
+          "rYFk96wm35"
+        ]
+      }
+    },
+    {
+      "name": "number",
+      "info": {
+        "x": 1980,
+        "y": 154,
+        "z": 11,
+        "color": "#5a5a5a",
+        "height": 108,
+        "width": 330
+      },
+      "options": {
+        "number": "5"
+      },
+      "outputs": {
+        "number": [
+          "4hGUjMqHGd"
+        ]
+      }
+    }
+  ],
+  "notes": []
+}
