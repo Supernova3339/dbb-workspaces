@@ -1,0 +1,447 @@
+{
+  "info": {
+    "title": "bot.dm-user",
+    "description": "DMs the selected user with the user id if provided.",
+    "thumbnail": ""
+  },
+  "blocks": [
+    {
+      "name": "text",
+      "info": {
+        "x": 0,
+        "y": 59,
+        "z": 1,
+        "color": "#5a5a5a",
+        "height": 120,
+        "width": 305
+      },
+      "options": {
+        "text": "dmbeta"
+      },
+      "outputs": {
+        "text": [
+          "g6Gk45WPir"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "check_message_arguments",
+      "info": {
+        "x": 1135,
+        "y": 92,
+        "z": 2,
+        "color": "#5a5a5a",
+        "height": 217,
+        "width": 590
+      },
+      "inputs": {
+        "action": "iDgV8uE5CZ",
+        "message": "qfgoxHXmqQ",
+        "number": "DqEKvdvgMs",
+        "custom_argument_separator": "LtRMsNVaZS"
+      },
+      "options": {
+        "arguments_type": "arguments",
+        "comparison_type": "greater_than_or_equal"
+      },
+      "outputs": {
+        "action1": [
+          "2Pfuu4iFMV",
+          "pYROwlbhPX"
+        ],
+        "action2": [
+          "wCGQ2IGL1w"
+        ]
+      }
+    },
+    {
+      "name": "command_event",
+      "info": {
+        "x": 338,
+        "y": 59,
+        "z": 3,
+        "color": "#5a5a5a",
+        "height": 267,
+        "width": 759
+      },
+      "inputs": {
+        "command_name": "g6Gk45WPir",
+        "custom_prefix": "MWfmEYnaIa",
+        "command_slowmode": "5HmaJsNHst"
+      },
+      "options": {
+        "command_restriction": "none",
+        "required_member_permission": "none",
+        "case_sensitive": "no",
+        "command_slowmode_restriction": "none"
+      },
+      "outputs": {
+        "action1": [
+          "iDgV8uE5CZ"
+        ],
+        "action2": [],
+        "message": [
+          "qfgoxHXmqQ",
+          "nlJz1iDfdD",
+          "zzfB7QtHxK"
+        ],
+        "channel": [
+          "JeUlzg5lRw"
+        ],
+        "user": [],
+        "error_message": []
+      }
+    },
+    {
+      "name": "send_message",
+      "info": {
+        "x": 1377,
+        "y": 450,
+        "z": 4,
+        "color": "#5a5a5a",
+        "height": 237,
+        "width": 280
+      },
+      "inputs": {
+        "action": "wCGQ2IGL1w",
+        "channel": "JeUlzg5lRw",
+        "text": "gUKM1U5GVk",
+        "embed": "IJrE233qb8",
+        "attachment": "kUUwpMWRPa",
+        "split_message": "xn1xYD9ixD"
+      },
+      "outputs": {
+        "action": [],
+        "message": []
+      },
+      "options": {}
+    },
+    {
+      "name": "text",
+      "info": {
+        "x": 1027,
+        "y": 531,
+        "z": 5,
+        "color": "#5a5a5a",
+        "height": 118,
+        "width": 305
+      },
+      "options": {
+        "text": "missing args"
+      },
+      "outputs": {
+        "text": [
+          "gUKM1U5GVk"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "number",
+      "info": {
+        "x": 734,
+        "y": 380,
+        "z": 6,
+        "color": "#5a5a5a",
+        "height": 107,
+        "width": 343
+      },
+      "options": {
+        "number": "2"
+      },
+      "outputs": {
+        "number": [
+          "DqEKvdvgMs",
+          "vkP2aUiPCw"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "get_message_arguments",
+      "info": {
+        "x": 1813,
+        "y": 0,
+        "z": 7,
+        "color": "#5a5a5a",
+        "height": 238,
+        "width": 457
+      },
+      "inputs": {
+        "action": "2Pfuu4iFMV",
+        "message": "nlJz1iDfdD",
+        "argument_number": "O5dlSxmmni",
+        "custom_argument_separator": "dzFbVrHYsf"
+      },
+      "options": {
+        "argument_type": "one_argument"
+      },
+      "outputs": {
+        "action": [],
+        "result": [
+          "qw4QnIK8mE"
+        ]
+      }
+    },
+    {
+      "name": "get_message_arguments",
+      "info": {
+        "x": 2302,
+        "y": 0,
+        "z": 8,
+        "color": "#5a5a5a",
+        "height": 243.2,
+        "width": 456
+      },
+      "inputs": {
+        "action": "pYROwlbhPX",
+        "message": "zzfB7QtHxK",
+        "argument_number": "vkP2aUiPCw",
+        "custom_argument_separator": "556V67kTEy"
+      },
+      "options": {
+        "argument_type": "multiple_arguments"
+      },
+      "outputs": {
+        "action": [
+          "fJ9ul7C3Cb"
+        ],
+        "result": [
+          "zzdl5IpfUw"
+        ]
+      }
+    },
+    {
+      "name": "get_user_info",
+      "info": {
+        "x": 1801,
+        "y": 422,
+        "z": 9,
+        "color": "#5a5a5a",
+        "height": 115.2,
+        "width": 544
+      },
+      "inputs": {
+        "action": "NMzAfVs9Su",
+        "user": "TH4kxNsnKb"
+      },
+      "options": {
+        "user_info": "8"
+      },
+      "outputs": {
+        "action": [
+          "oNzouN2RgO"
+        ],
+        "result": [
+          "aPLZnk5CUs"
+        ]
+      }
+    },
+    {
+      "name": "send_message",
+      "info": {
+        "x": 2976,
+        "y": 396,
+        "z": 10,
+        "color": "#5a5a5a",
+        "height": 241.6,
+        "width": 280
+      },
+      "inputs": {
+        "action": "alH7EG8LTw",
+        "channel": "aPLZnk5CUs",
+        "text": "OSyTkZihIv",
+        "embed": "rtSf1z8fxr",
+        "attachment": "yL7H5F3B8S",
+        "split_message": "LiqXlrF5bx"
+      },
+      "outputs": {
+        "action": [],
+        "message": []
+      },
+      "options": {}
+    },
+    {
+      "name": "find_user",
+      "info": {
+        "x": 1818,
+        "y": 306,
+        "z": 11,
+        "color": "#5a5a5a",
+        "height": 113,
+        "width": 526
+      },
+      "inputs": {
+        "action": "fJ9ul7C3Cb",
+        "search_value": "qw4QnIK8mE"
+      },
+      "options": {
+        "find_user_by": "id"
+      },
+      "outputs": {
+        "action": [
+          "NMzAfVs9Su"
+        ],
+        "user": [
+          "TH4kxNsnKb"
+        ]
+      }
+    },
+    {
+      "name": "create_embed_message",
+      "info": {
+        "x": 2505,
+        "y": 481,
+        "z": 12,
+        "color": "#5a5a5a",
+        "height": 527.2,
+        "width": 340
+      },
+      "inputs": {
+        "action": "oNzouN2RgO",
+        "color": "QnhAttVLzS",
+        "thumbnail": "zY6vkpXccY",
+        "author_icon": "RKOoxqRiE2",
+        "author_name": "uj7HhaFmrP",
+        "author_url": "fQe2xTg58m",
+        "title": "RmRbKzDTlL",
+        "url": "FIttSM99XY",
+        "description": "zzdl5IpfUw",
+        "image": "HGqQIfbNdf",
+        "footer_icon": "1kU5rfX3ct",
+        "footer_text": "gA1uqt6uQy",
+        "timestamp": "b7cdcttmya"
+      },
+      "outputs": {
+        "action": [
+          "alH7EG8LTw"
+        ],
+        "message_embed": [
+          "rtSf1z8fxr"
+        ]
+      },
+      "options": {}
+    },
+    {
+      "name": "text",
+      "info": {
+        "x": 1970,
+        "y": 645,
+        "z": 13,
+        "color": "#5a5a5a",
+        "height": 120,
+        "width": 305
+      },
+      "options": {
+        "text": ""
+      },
+      "outputs": {
+        "text": [
+          "RmRbKzDTlL"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "text",
+      "info": {
+        "x": 2011,
+        "y": 935,
+        "z": 14,
+        "color": "#5a5a5a",
+        "height": 120,
+        "width": 305
+      },
+      "options": {
+        "text": "© ZeoTape2021"
+      },
+      "outputs": {
+        "text": [
+          "gA1uqt6uQy"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "boolean",
+      "info": {
+        "x": 2399,
+        "y": 1243,
+        "z": 15,
+        "color": "#5a5a5a",
+        "height": 105.6,
+        "width": 267
+      },
+      "options": {
+        "boolean_type": "true"
+      },
+      "outputs": {
+        "boolean": [
+          "b7cdcttmya"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "color",
+      "info": {
+        "x": 2069,
+        "y": 1293,
+        "z": 16,
+        "color": "#5a5a5a",
+        "height": 106.4,
+        "width": 192
+      },
+      "options": {
+        "color": "#ff8000"
+      },
+      "outputs": {
+        "color": []
+      },
+      "inputs": {}
+    },
+    {
+      "name": "color",
+      "info": {
+        "x": 2222,
+        "y": 396,
+        "z": 17,
+        "color": "#5a5a5a",
+        "height": 106.4,
+        "width": 192
+      },
+      "options": {
+        "color": "#008040"
+      },
+      "outputs": {
+        "color": [
+          "QnhAttVLzS"
+        ]
+      },
+      "inputs": {}
+    }
+  ],
+  "notes": [
+    {
+      "title": "Set to your own Copyright message",
+      "description": "",
+      "color": "#5a5a5a",
+      "x": 1967,
+      "y": 865,
+      "z": 1,
+      "width": 428,
+      "height": 220
+    },
+    {
+      "title": "Set Embed's Title",
+      "description": "",
+      "color": "#5a5a5a",
+      "x": 1920,
+      "y": 588,
+      "z": 2,
+      "width": 426,
+      "height": 217
+    }
+  ]
+}
