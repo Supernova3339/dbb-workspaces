@@ -1,6 +1,6 @@
 {
   "info": {
-    "title": "Blacklist command",
+    "title": "bot.blacklist",
     "description": "!blacklist <userid> | Adds the blacklist\n!whitelist <userid> | Removes the blacklist\n---------------------------------------------------------------------------------------------------------\nWhat does it do?\nIt sets the user's area in data.json to blacklisted, but keeps all other data that the user has.\n\nHow to set up?\nRead the tutorial in the bottom left of the work space. Delete it after though. You can take a screenshot ;)\n---------------------------------------------------------------------------------------------------------\nMade by: Ydupc#0001",
     "thumbnail": ""
   },
@@ -405,7 +405,8 @@
           "P5fq8QvaQC"
         ],
         "user": [
-          "YIt91dZaOD"
+          "YIt91dZaOD",
+          "sEiZMXG4yr"
         ],
         "error_message": []
       }
@@ -468,7 +469,7 @@
       },
       "outputs": {
         "action": [
-          "a6zL1vinZi"
+          "ozHxJDZNuV"
         ]
       }
     },
@@ -521,19 +522,19 @@
       "outputs": {
         "action": [
           "DGHAwXXEWl",
-          "0hUuKpdYQI"
+          "4QhBajuIj4"
         ],
         "user": [
           "6YNyBrf6dB",
-          "XT3FOvr3Bs"
+          "3EP5RqXys6"
         ]
       }
     },
     {
       "name": "merge_texts_advanced",
       "info": {
-        "x": 1751,
-        "y": 2145,
+        "x": 1978,
+        "y": 2155,
         "z": 23,
         "color": "#5a5a5a",
         "height": 178.4,
@@ -550,11 +551,9 @@
       },
       "outputs": {
         "action": [
-          "WTvJvrftiR",
           "d1gLgtUtnQ"
         ],
         "text": [
-          "fZZzoSL8UR",
           "Egcx53OCX1"
         ]
       }
@@ -562,8 +561,8 @@
     {
       "name": "get_member_info",
       "info": {
-        "x": 1361,
-        "y": 1940,
+        "x": 1272,
+        "y": 1988,
         "z": 24,
         "color": "#5a5a5a",
         "height": 115.2,
@@ -578,9 +577,7 @@
       },
       "outputs": {
         "action": [],
-        "result": [
-          "x7DEZCmyUX"
-        ]
+        "result": []
       }
     },
     {
@@ -607,64 +604,6 @@
       }
     },
     {
-      "name": "get_user_info",
-      "info": {
-        "x": 2429,
-        "y": 1786,
-        "z": 26,
-        "color": "#5a5a5a",
-        "height": 115.2,
-        "width": 544
-      },
-      "inputs": {
-        "action": "0hUuKpdYQI",
-        "user": "XT3FOvr3Bs"
-      },
-      "options": {
-        "user_info": "8"
-      },
-      "outputs": {
-        "action": [
-          "IvMCTAVXpR"
-        ],
-        "result": [
-          "hLF0E4CMOc"
-        ]
-      }
-    },
-    {
-      "name": "create_embed_message",
-      "info": {
-        "x": 2785,
-        "y": 1947,
-        "z": 27,
-        "color": "#5a5a5a",
-        "height": 527.2,
-        "width": 340
-      },
-      "inputs": {
-        "action": "IvMCTAVXpR",
-        "color": "UL79HEBOnS",
-        "thumbnail": "u3sbe8kdmH",
-        "author_icon": "uTKJCgqqgd",
-        "author_name": "1zUCTb42Cl",
-        "author_url": "achmc20aI9",
-        "title": "fWMBJlpVc0",
-        "url": "iWP4Ou6nzk",
-        "description": "fZZzoSL8UR",
-        "image": "r5InlA1Tvv",
-        "footer_icon": "Q2jd8uoa4b",
-        "footer_text": "aQxwl3FPGV",
-        "timestamp": "WR3x4yXTLN"
-      },
-      "outputs": {
-        "action": [
-          "MPUbuPxIEL"
-        ],
-        "message_embed": []
-      }
-    },
-    {
       "name": "text",
       "info": {
         "x": 2284,
@@ -679,15 +618,15 @@
       },
       "outputs": {
         "text": [
-          "fWMBJlpVc0"
+          "9jKGgeUyag"
         ]
       }
     },
     {
       "name": "send_message",
       "info": {
-        "x": 3161,
-        "y": 2117,
+        "x": 3175,
+        "y": 1606,
         "z": 29,
         "color": "#5a5a5a",
         "height": 241.6,
@@ -732,7 +671,9 @@
         "timestamp": "X6VrSAbUBy"
       },
       "outputs": {
-        "action": [],
+        "action": [
+          "n9FQoM168j"
+        ],
         "message_embed": [
           "1WWCpFTQzQ"
         ]
@@ -741,15 +682,15 @@
     {
       "name": "text",
       "info": {
-        "x": 1992,
-        "y": 2339,
+        "x": 1857,
+        "y": 2336,
         "z": 31,
         "color": "#5a5a5a",
         "height": 120,
         "width": 305
       },
       "options": {
-        "text": "Whitelist complete."
+        "text": "Whitelist done."
       },
       "outputs": {
         "text": [
@@ -799,7 +740,7 @@
       },
       "outputs": {
         "action1": [
-          "mTeVMqXbpg"
+          "O2RCHACxFj"
         ],
         "action2": [],
         "message": [],
@@ -808,36 +749,9 @@
           "SJMpIPP7ij"
         ],
         "user": [
-          "cKQDM6Td5g"
+          "HMAjKVuTHY"
         ],
         "error_message": []
-      }
-    },
-    {
-      "name": "get_data",
-      "info": {
-        "x": 842,
-        "y": 2757,
-        "z": 34,
-        "color": "#5a5a5a",
-        "height": 168,
-        "width": 391
-      },
-      "inputs": {
-        "action": "mTeVMqXbpg",
-        "name": "GiqaEuZtRD",
-        "target": "cKQDM6Td5g"
-      },
-      "options": {
-        "data_type": "user"
-      },
-      "outputs": {
-        "action": [
-          "CHCBtEJ0sM"
-        ],
-        "value": [
-          "aIkCvBiHFB"
-        ]
       }
     },
     {
@@ -855,15 +769,15 @@
       },
       "outputs": {
         "text": [
-          "GiqaEuZtRD"
+          "5fKaufH5GH"
         ]
       }
     },
     {
       "name": "check_comparison",
       "info": {
-        "x": 741,
-        "y": 2409,
+        "x": 697,
+        "y": 2405,
         "z": 36,
         "color": "#5a5a5a",
         "height": 146.4,
@@ -879,10 +793,11 @@
       },
       "outputs": {
         "action1": [
-          "BLoA3xeFFb",
           "CSR3yNoBy6"
         ],
-        "action2": []
+        "action2": [
+          "BLoA3xeFFb"
+        ]
       }
     },
     {
@@ -953,8 +868,8 @@
     {
       "name": "text_first",
       "info": {
-        "x": 1015,
-        "y": 2607,
+        "x": 1030,
+        "y": 2573,
         "z": 40,
         "color": "#5a5a5a",
         "height": 120,
@@ -966,6 +881,138 @@
       "outputs": {
         "text": [
           "BWegqMqwPj"
+        ]
+      }
+    },
+    {
+      "name": "get_data",
+      "info": {
+        "x": 856,
+        "y": 2787,
+        "z": 41,
+        "color": "#5a5a5a",
+        "height": 168,
+        "width": 391
+      },
+      "inputs": {
+        "action": "O2RCHACxFj",
+        "name": "5fKaufH5GH",
+        "target": "HMAjKVuTHY"
+      },
+      "options": {
+        "data_type": "none"
+      },
+      "outputs": {
+        "action": [
+          "CHCBtEJ0sM"
+        ],
+        "value": [
+          "aIkCvBiHFB"
+        ]
+      }
+    },
+    {
+      "name": "get_user_info",
+      "info": {
+        "x": 1620,
+        "y": 1795,
+        "z": 42,
+        "color": "#5a5a5a",
+        "height": 115.2,
+        "width": 544
+      },
+      "inputs": {
+        "action": "ozHxJDZNuV",
+        "user": "sEiZMXG4yr"
+      },
+      "options": {
+        "user_info": "16"
+      },
+      "outputs": {
+        "action": [
+          "a6zL1vinZi"
+        ],
+        "result": [
+          "x7DEZCmyUX"
+        ]
+      }
+    },
+    {
+      "name": "text_first",
+      "info": {
+        "x": 2438,
+        "y": 1892,
+        "z": 43,
+        "color": "#5a5a5a",
+        "height": 120,
+        "width": 305
+      },
+      "options": {
+        "text": "You may now use the bot again. You were unblacklisted!"
+      },
+      "outputs": {
+        "text": [
+          "d2FBcjBKfl"
+        ]
+      }
+    },
+    {
+      "name": "create_embed_message",
+      "info": {
+        "x": 2856,
+        "y": 1881,
+        "z": 44,
+        "color": "#5a5a5a",
+        "height": 527.2,
+        "width": 340
+      },
+      "inputs": {
+        "action": "ix6S8sDErC",
+        "color": "t3OLSQYRvc",
+        "thumbnail": "eSas6jXQNU",
+        "author_icon": "9acVILhsrU",
+        "author_name": "Ea0FusGV9m",
+        "author_url": "5cTuD7vRdt",
+        "title": "9jKGgeUyag",
+        "url": "0iu2yZgg5z",
+        "description": "d2FBcjBKfl",
+        "image": "eDlvxmCmD1",
+        "footer_icon": "WFDvTYZTHL",
+        "footer_text": "utKJDbwav1",
+        "timestamp": "dpJplPgqGx"
+      },
+      "outputs": {
+        "action": [
+          "MPUbuPxIEL"
+        ],
+        "message_embed": [
+          "7sDYyRMby9"
+        ]
+      }
+    },
+    {
+      "name": "get_user_info",
+      "info": {
+        "x": 2558,
+        "y": 1566,
+        "z": 45,
+        "color": "#5a5a5a",
+        "height": 115.2,
+        "width": 544
+      },
+      "inputs": {
+        "action": "4QhBajuIj4",
+        "user": "3EP5RqXys6"
+      },
+      "options": {
+        "user_info": "8"
+      },
+      "outputs": {
+        "action": [
+          "ix6S8sDErC"
+        ],
+        "result": [
+          "hLF0E4CMOc"
         ]
       }
     }
@@ -1005,21 +1052,21 @@
       "title": "HOW TO USE THESE COMMANDS",
       "description": "",
       "color": "#5a5a5a",
-      "x": 56,
-      "y": 2087,
+      "x": 51,
+      "y": 2118,
       "z": 4,
-      "width": 1645,
+      "width": 1644,
       "height": 1464
     },
     {
       "title": "1)",
       "description": "Only change the colors and words if you dare but do not change the bits under\nthe \"DO NOT CHANGE\" area.",
       "color": "#5a5a5a",
-      "x": 82,
-      "y": 2155,
+      "x": 106,
+      "y": 2193,
       "z": 5,
-      "width": 441,
-      "height": 64
+      "width": 534,
+      "height": 108
     },
     {
       "title": "2) Before each command",
@@ -1028,18 +1075,18 @@
       "x": 0,
       "y": 2314,
       "z": 6,
-      "width": 1637,
+      "width": 1636,
       "height": 1208
     },
     {
       "title": "Leave \"value1\" empty",
       "description": "",
       "color": "#5a5a5a",
-      "x": 752,
-      "y": 2342,
+      "x": 748,
+      "y": 2367,
       "z": 7,
       "width": 512,
-      "height": 229
+      "height": 228
     },
     {
       "title": "Action (If False)",
