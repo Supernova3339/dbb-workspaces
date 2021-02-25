@@ -1,0 +1,302 @@
+{
+  "info": {
+    "title": "Bot Dev / Status commands",
+    "description": "Made by Ydupc#0001\nUses moddded block: send_message_with_text",
+    "thumbnail": ""
+  },
+  "blocks": [
+    {
+      "name": "command_event",
+      "info": {
+        "x": 131,
+        "y": 299,
+        "z": 3,
+        "color": "#5a5a5a",
+        "height": 266.4,
+        "width": 758
+      },
+      "inputs": {
+        "command_name": "bjD9B2fu2e",
+        "custom_prefix": "FyWbQjyska",
+        "command_slowmode": "pr3RqydjIN"
+      },
+      "options": {
+        "command_restriction": "bot_owner_only",
+        "required_member_permission": "none",
+        "case_sensitive": "no",
+        "command_slowmode_restriction": "none"
+      },
+      "outputs": {
+        "action1": [
+          "gzVLUACcUF"
+        ],
+        "action2": [],
+        "message": [
+          "Aays5WAf6z"
+        ],
+        "channel": [
+          "UY8fM7EQEj",
+          "2H7boQ79Qd",
+          "3rW1tCNKhI"
+        ],
+        "user": [],
+        "error_message": []
+      }
+    },
+    {
+      "name": "text_first",
+      "info": {
+        "x": 43,
+        "y": 52,
+        "z": 4,
+        "color": "#5a5a5a",
+        "height": 120,
+        "width": 305
+      },
+      "options": {
+        "text": "botcmd"
+      },
+      "outputs": {
+        "text": [
+          "bjD9B2fu2e"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "get_message_arguments",
+      "info": {
+        "x": 979,
+        "y": 354,
+        "z": 5,
+        "color": "#5a5a5a",
+        "height": 243.2,
+        "width": 456
+      },
+      "inputs": {
+        "action": "gzVLUACcUF",
+        "message": "Aays5WAf6z",
+        "argument_number": "1YW8jyngJf",
+        "custom_argument_separator": "H7ghbZOPTs"
+      },
+      "options": {
+        "argument_type": "one_argument"
+      },
+      "outputs": {
+        "action": [
+          "P1cpRsk7NZ"
+        ],
+        "result": [
+          "0jihBn2G5I",
+          "t2cvigkZAe"
+        ]
+      }
+    },
+    {
+      "name": "check_comparison",
+      "info": {
+        "x": 1215,
+        "y": 665,
+        "z": 6,
+        "color": "#5a5a5a",
+        "height": 146.4,
+        "width": 493
+      },
+      "inputs": {
+        "action": "P1cpRsk7NZ",
+        "value1": "0jihBn2G5I",
+        "value2": "9nBm9BT2HM"
+      },
+      "options": {
+        "comparison_type": "equal"
+      },
+      "outputs": {
+        "action1": [
+          "8h9OD7SdZC"
+        ],
+        "action2": [
+          "hj6o8PensX"
+        ]
+      }
+    },
+    {
+      "name": "text_first",
+      "info": {
+        "x": 823,
+        "y": 672,
+        "z": 7,
+        "color": "#5a5a5a",
+        "height": 120,
+        "width": 305
+      },
+      "options": {
+        "text": "restart"
+      },
+      "outputs": {
+        "text": [
+          "9nBm9BT2HM"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "send_message_with_text",
+      "info": {
+        "x": 1813,
+        "y": 417,
+        "z": 8,
+        "color": "#5a5a5a",
+        "height": 209.6,
+        "width": 488
+      },
+      "inputs": {
+        "action": "8h9OD7SdZC",
+        "channel": "UY8fM7EQEj",
+        "embed": "qQdXdOQeW5",
+        "attachment": "1UbL4IwRmZ",
+        "split_message": "L0Ce1oIqtt"
+      },
+      "options": {
+        "text": "__**Bot Restarted**__"
+      },
+      "outputs": {
+        "action": [
+          "ViTvFHKNba"
+        ],
+        "message": []
+      }
+    },
+    {
+      "name": "restart_bot",
+      "info": {
+        "x": 2326,
+        "y": 508,
+        "z": 9,
+        "color": "#5a5a5a",
+        "height": 83.2,
+        "width": 142
+      },
+      "inputs": {
+        "action": "ViTvFHKNba"
+      },
+      "options": {},
+      "outputs": {}
+    },
+    {
+      "name": "check_comparison",
+      "info": {
+        "x": 1222,
+        "y": 844,
+        "z": 10,
+        "color": "#5a5a5a",
+        "height": 146.4,
+        "width": 493
+      },
+      "inputs": {
+        "action": "hj6o8PensX",
+        "value1": "t2cvigkZAe",
+        "value2": "BN40mX62iG"
+      },
+      "options": {
+        "comparison_type": "equal"
+      },
+      "outputs": {
+        "action1": [
+          "vXm7IQJuIO"
+        ],
+        "action2": [
+          "WVfUlBFrR6"
+        ]
+      }
+    },
+    {
+      "name": "text_first",
+      "info": {
+        "x": 719,
+        "y": 828,
+        "z": 11,
+        "color": "#5a5a5a",
+        "height": 120,
+        "width": 305
+      },
+      "options": {
+        "text": "stop"
+      },
+      "outputs": {
+        "text": [
+          "BN40mX62iG"
+        ]
+      },
+      "inputs": {}
+    },
+    {
+      "name": "send_message_with_text",
+      "info": {
+        "x": 1906,
+        "y": 839,
+        "z": 12,
+        "color": "#5a5a5a",
+        "height": 209.6,
+        "width": 488
+      },
+      "inputs": {
+        "action": "vXm7IQJuIO",
+        "channel": "2H7boQ79Qd",
+        "embed": "TMkYS5Rtmf",
+        "attachment": "x0azBNz3k1",
+        "split_message": "oPkK8gY3wm"
+      },
+      "options": {
+        "text": "__**Bot is stopping and turing off server**__"
+      },
+      "outputs": {
+        "action": [
+          "A2Rlm6P4Ts"
+        ],
+        "message": []
+      }
+    },
+    {
+      "name": "stop_bot",
+      "info": {
+        "x": 2486,
+        "y": 939,
+        "z": 13,
+        "color": "#5a5a5a",
+        "height": 83.2,
+        "width": 128
+      },
+      "inputs": {
+        "action": "A2Rlm6P4Ts"
+      },
+      "options": {},
+      "outputs": {}
+    },
+    {
+      "name": "send_message_with_text",
+      "info": {
+        "x": 1215,
+        "y": 997,
+        "z": 14,
+        "color": "#5a5a5a",
+        "height": 341.6,
+        "width": 688
+      },
+      "inputs": {
+        "action": "WVfUlBFrR6",
+        "channel": "3rW1tCNKhI",
+        "embed": "GqLRMJejPm",
+        "attachment": "DQmeaFKPpm",
+        "split_message": "0TPrEteryv"
+      },
+      "options": {
+        "text": "Bot Owner Tools:\n``stop``\n``restart``"
+      },
+      "outputs": {
+        "action": [],
+        "message": []
+      }
+    }
+  ],
+  "notes": []
+}
